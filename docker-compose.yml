@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  datavalidation:
+    image: datavalidation
+    build:
+      context: .\DataValidation
+      dockerfile: Dockerfile
